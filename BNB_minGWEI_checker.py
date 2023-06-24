@@ -8,9 +8,12 @@ api_tg = 'api_tg'
 api_bscscan = 'api_bscscan'
 
 validators = {
-    'Legenda III': '0x8b6c8fd93d6f4cea42bbb345dbc6f0dfdb5bec73',
-    'Legenda I': '0x295e26495cef6f69dfa69911d9d8e4f3bbadb89b',
-    '0x35EBb5849518aFF370cA25E19e1072cC1a9FAbCa': '0x35EBb5849518aFF370cA25E19e1072cC1a9FAbCa'}
+    'Legend III': '0x8b6C8fd93d6F4CeA42Bbb345DBc6F0DFdb5bEc73',
+    'Legend I': '0x295e26495cef6f69dfa69911d9d8e4f3bbadb89b',
+    'HashQuark': '0xE9AE3261a475a27Bb1028f140bc2a7c843318afD',
+    'Ankr': '0x9f8ccdafcc39f3c7d6ebf637c9151673cbc36b88',
+    # '0x35EBb5849518aFF370cA25E19e1072cC1a9FAbCa': '0x35EBb5849518aFF370cA25E19e1072cC1a9FAbCa',
+}
 
 bot = telebot.TeleBot(api_tg)
 w3 = Web3(Web3.HTTPProvider('https://bsc.blockpi.network/v1/rpc/public'))
